@@ -3,9 +3,15 @@
 }
 h1{
 	text-align: center;
-	font-family: serif;
+	font-family: 'Mr De Haviland', cursive;
+	font-size: 60px;
 	padding-bottom: 5px;
 	border-bottom: solid 2px black;
+}
+h2{
+	font-family: 'Holtwood One SC', serif;
+	text-align: center;
+
 }
 #topBox{
 	display: flex;
@@ -14,13 +20,13 @@ h1{
 }
 .boxy{
 	border:solid 2px black;
-	flex-grow: 1;
+	width: 34%;
 }
 .boxy2{
 	display: flex;
 	justify-content: center;
 	border:solid 2px black;
-	width: 50%;
+	width: 66%;
 	height: 50vh;
 }
 #bottomBox{
@@ -47,7 +53,36 @@ h1{
 	flex-grow: 1;
 	height: 30vh;
 	display: flex;
+	padding-left: 30px;
+	padding-top: 15px;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
 }
+.Sport{
+	background-color: blue;
+}
+.Opinion{
+	background-color: red;
+}
+.Politics{
+	background-color: limegreen;
+}
+.Lifestyle{
+	background-color: peru;
+}
+.Local{
+	background-color: purple;
+}
+.Fashion{
+	background-color: mediumseagreen;
+}
+
 #corgi{
 	width: 100%
+}
+p{
+	font-size: 20px;
+	padding-left: 10px;
+	line-height: 1.5;
 }
